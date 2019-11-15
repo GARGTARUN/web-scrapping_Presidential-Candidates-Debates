@@ -191,4 +191,3 @@ for z in range(len(links)):
 df = pd.DataFrame(data)
 df.head(5)
 print(df.head(5))
-print("delete kr dena")
