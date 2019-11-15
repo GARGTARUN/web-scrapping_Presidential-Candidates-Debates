@@ -154,7 +154,7 @@ for z in range(len(links)):
     trans = " ".join(trans)  # full transcript of debate
     print(trans)  # print full transcript
     # create or open file in append mode to store data in csv
-    csvFile = open('new_data4.csv', 'a', newline='')
+    csvFile = open('data.csv', 'a', newline='')
     flag=0
     # Use csv Writer
     if(len(listoflist)>3):
