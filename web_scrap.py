@@ -188,6 +188,6 @@ for z in range(len(links)):
     data['TRANSCRIPT'].append(trans)
     data['DICTIONARY'].append(dict)
 
-    df = pd.DataFrame(data)
-    df.head(5)
-    print(df.head(5))
+df = pd.DataFrame(data)
+df.head(5)
+print(df.head(5))
